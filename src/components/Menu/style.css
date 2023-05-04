@@ -1,0 +1,32 @@
+
+.menu{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 65px;
+    padding: 1px;
+    background-color: var(--mainColor);
+}
+
+.options{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.menu ul{
+    color: white;
+    list-style: none;
+    padding: 6px;
+}
+.menu ul:hover{
+    background-color: #DC143C;
+    border-radius: 10px;
+
+}
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    padding: 3px;
+}
