@@ -1,0 +1,23 @@
+.dualwindow{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 18vw;     
+}
+.dualwindow span{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--mainColor);
+    color:aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* .space{
+    display: flex;
+    justify-content: flex-start;
+} */
+
+.space div{
+    right: 100px;
+    /* background-color:aqua;    */
+    padding-right: 100px;
+}

@@ -1,10 +1,10 @@
 import React from "react"
 import "./style.css"
-// import { AiFillInstagram } from 'react-icons/fa'
+// import { FallInstagram, FaFacebook } from 'react-icons/fa'
 
 function Footer () {
     return (
-        <div>
+        <footer>
             <div className="containerFooter">
                 <span className="gridone">
                 Redes sociais
@@ -14,10 +14,10 @@ function Footer () {
                 <span className="introduce">
                     © Copyright
                     Develop by Gabriel Peixoto 
-                    GitHub: <a href="https://github.com/devpeixoto">DevPeixoto</a>
+                    GitHub: <a href="https://github.com/devpeixoto" target="_blank">DevPeixoto</a>
                 </span>
             </div>
-        </div>
+        </footer>
     )
 }
 
