@@ -5,17 +5,18 @@ import { motion } from "framer-motion";
 
 
 import imge1 from '../../../public/img/tininha.jpeg'
-import imge2 from '../../../public/img/logo.jpg'
-import imge3 from '../../../public/img/1682461705027.jpg'
+// import imge2 from '../../../public/img/logo.jpg'
+// import imge3 from '../../../public/img/1682461705027.jpg'
+import imge4 from '../../../public/img/babaAlexandre.jpeg'
 
 
-const images = [imge1, imge2, imge3]
+const images = [imge1, imge4]
 const history = [
-    'Lorem ipsum dolor sit amet . Os operadores gráficos e tipográficos sabem disso bem, na realidade, todas as profissões que lidam com o universo da comunicação têm um relacionamento estável com essas palavras, mas o que é? Lorem ipsum é um texto fofo sem qualquer sentido.',
-    'Texto 2 não sei o que vai ser desse texto mas irei colocar da melhor forma possível pois isso tudo só depende de mim para dar certo',
-    'texto 3 vamos la, vou mostrar que sou capaz de tudo nessa vida, já sou um vencedor por lutar por tudo aquilo que eu quiz! e não preciso mostrar pra ninguém.'
+    '"E não se trata de religião, se trata de como viver a vida, porque cada religião tem sua bússola que não deixa de ser um oráculo onde todos nós devemos seguir. Assim como o as cartas, os Búzios, as runas, o Opele ifá, a bola de cristal, a leitura de mãos... são oráculos ancestrais. Aqui no DEUSES DO UNIVERSO nós temos a diversidade de oráculos para atender a sua necessidade" .. Tininha Santtos',
+    'A IYALORISA NILZA ATI OYA (Tininha), tem a personalidade do candomblé do Rio de Janeiro, trazendo em seu websit conteúdos relevantes sobre religiões de matrizes africanas, além de pautas didáticas e culturais. Inteligente, irreverente e exagerada(a vezes), sentimental, empoderada, militante, humana..., mulher! ÌYÁ Tininha é um show a parte! entre logo e seja atendido(a) pela melhor equipe de oraculistas selecionados por eval.',
+    'BÀBÁ ALEXANDRE COIMBRA - BÀBÁLAWO IFÁṢADÉ'
 ]
-
+    
 function CarSlid( ) {
     const carousel = useRef()
     const [width, setWidth] = useState(0)
