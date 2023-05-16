@@ -5,6 +5,7 @@ import Sale from "./Pages/sale/sale"
 import Capa from "./Pages/Capa/capa"
 import Phone from "./Pages/Phone/phone"
 import CarSlid from "./components/carrousel"
+import Description from "./Pages/description/description"
 
 function App () {
     return (
@@ -12,6 +13,7 @@ function App () {
             <Capa />
             <Phone />
             <Sale />
+            <Description />
             <CarSlid />
         </div>
 
