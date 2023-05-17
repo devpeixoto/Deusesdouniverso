@@ -13,4 +13,13 @@
     justify-content: center;
 
 }
+.gridone a{
+    color: white;
+}
+.gridtwo{
+    padding: 20px;
+}
+.gridtwo a{
+    color: white;
+}
 

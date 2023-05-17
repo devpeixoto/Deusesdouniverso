@@ -7,7 +7,10 @@ function Footer () {
         <footer>
             <div className="containerFooter">
                 <span className="gridone">
-                Redes sociais
+                    <a href="https://www.facebook.com/deusesdouniverso/" target="_blank">Facebook</a>
+                </span>
+                <span className="gridtwo">
+                    <a href="https://instagram.com/deusesdouniversonr?igshid=MzNlNGNkZWQ4Mg==" target="_blank">Instagram</a>
                 </span>
             </div>
             <div>

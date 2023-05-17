@@ -5,7 +5,8 @@ const Phone = () => {
     return (
         <div className="anything" >
             <h1>
-                <a href="">Telefone Para Contato (21) 97233-0056</a>
+                Telefone Para Contato 
+                <a href="https://api.whatsapp.com/message/WLIGKZZJMGBSJ1?autoload=1&app_absent=0" target="_blank"> (21) 97233-0056</a>
             </h1>
         </div>
     )
