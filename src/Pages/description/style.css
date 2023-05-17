@@ -6,11 +6,22 @@
     grid-template-columns: 1fr 1fr 1fr;
 }
 .desc2{
+    display: flex;
+    /* justify-content: center; */
+    padding-top: 15px;
+    padding-left: 5px;
     height: 400px;
-    
 }
-
 .desc2 img{
     height: 90%;
     width: 90%;
+    /* border-radius: 15px; */
+    border-radius: 50%;
+}
+.text{
+    display: flex;
+    align-items: center;   
+}
+.ceo{
+    padding-top: 50px;
 }

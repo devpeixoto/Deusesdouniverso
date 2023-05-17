@@ -6,6 +6,7 @@ import Capa from "./Pages/Capa/capa"
 import Phone from "./Pages/Phone/phone"
 import CarSlid from "./components/carrousel"
 import Description from "./Pages/description/description"
+import Comment from "./Pages/comment/comment"
 
 function App () {
     return (
@@ -15,6 +16,7 @@ function App () {
             <Sale />
             <Description />
             <CarSlid />
+            <Comment />
         </div>
 
         )

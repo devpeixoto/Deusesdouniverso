@@ -5,7 +5,7 @@ const Phone = () => {
     return (
         <div className="anything" >
             <h1>
-                Telefone Para Contato (21) 97694-2295
+                <a href="">Telefone Para Contato (21) 97233-0056</a>
             </h1>
         </div>
     )
