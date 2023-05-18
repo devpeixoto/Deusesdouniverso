@@ -24,3 +24,5 @@ function App () {
 
 export default App 
 
+//no arquivo package,json foi adicionado uma tag "homepage": "https://deusesdouniverso.com.br/",
+//ele redireciona a pagina para conseguir-mos fazer o deploy

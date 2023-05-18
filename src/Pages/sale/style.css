@@ -1,8 +1,15 @@
 .dualwindow{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 18vw;
-    z-index: 2;     
+    height: 20vw;
+    z-index: 2;
+    
+    
+    @media (max-width: 769px ){
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 .dualwindow span{
     display: flex;
@@ -11,10 +18,20 @@
     background-color: var(--mainColor);
     color:aliceblue;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    @media (max-width: 769px ){
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* width: 50%; */
+        height:100px;
+        background-color: blue;
+    }
 }
 
 .space div{
-    right: 100px;
+    /* right: 100px; */
     /* background-color:aqua;    */
-    padding-right: 100px;
+    /* padding-right: 100px; */
 }
