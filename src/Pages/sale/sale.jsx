@@ -5,16 +5,24 @@ import "./style.css"
 const Sale = () => {
     return(
         <div className="dualwindow">
-            <span className="minlay">
+            <span className="minlayout">
                 <h3>Serviços</h3>
                 <br/>
-                JOGO DE BÚZIOS<br/>
-                OPELE IFÁ<br/>
-                BOLA DE CRISTAL<br/>
-                TARÔ CIGANO<br/>
-                JOGO DE OSSOS<br/>
-                BARALHO DE MARIA PADILHA<br/>
-                ENTRE OUTROS...
+                <div>
+                    <span>
+                        JOGO DE BÚZIOS<br/>
+                        OPELE IFÁ<br/>
+                        BOLA DE CRISTAL<br/>
+                    </span>
+                    <span>
+                        TARÔ CIGANO<br/>
+                        JOGO DE OSSOS<br/>
+                        BARALHO DE MARIA PADILHA<br/>
+                    </span>
+                    <span>
+                        ENTRE OUTROS...
+                    </span>
+                </div>
             </span>
             <span className="space">
                 <h3>Nosso Queridinho</h3>

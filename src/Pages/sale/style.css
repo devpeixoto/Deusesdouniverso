@@ -14,6 +14,7 @@
 .dualwindow span{
     display: flex;
     justify-content: space-around;
+    padding: 10px;
     align-items: center;
     background-color: var(--mainColor);
     color:aliceblue;
@@ -24,14 +25,38 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        /* width: 50%; */
-        height:100px;
-        background-color: blue;
+        /* height:120px; */
     }
 }
-
-.space div{
-    /* right: 100px; */
-    /* background-color:aqua;    */
-    /* padding-right: 100px; */
+.minlayout{
+    display: flex;
+    justify-content: flex-start;
+    @media (max-width: 769px){
+        display: flex;
+        flex-wrap: wrap;
+        padding-right: 10px
+    }
+}
+.minlayout div{
+    @media(max-width: 769px){
+        display: grid;
+        /* width: 34%; */
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 10px;
+    }
+    @media(max-width: 630px){
+        /* width: 80%; */
+    }
+}
+.minlayout h3 {
+    @media(max-width: 400px){
+        font-size: 90%
+    }
+}
+.minlayout span{
+    display: flex;
+    justify-content: flex-start;
+    @media(max-width: 397px){
+        font-size: 12px;
+    }
 }
