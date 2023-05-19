@@ -1,16 +1,20 @@
 import React from "react"
 import "./style.css"
-// import { FallInstagram, FaFacebook } from 'react-icons/fa'
+import { FaInstagram, FaFacebook } from 'react-icons/fa'
 
 function Footer () {
     return (
         <footer>
             <div className="containerFooter">
                 <span className="gridone">
-                    <a href="https://www.facebook.com/deusesdouniverso/" target="_blank">Facebook</a>
+                    <a href="https://www.facebook.com/deusesdouniverso/" target="_blank">Facebook 
+                    <FaFacebook size={35} />
+                    </a>
                 </span>
                 <span className="gridtwo">
-                    <a href="https://instagram.com/deusesdouniversonr?igshid=MzNlNGNkZWQ4Mg==" target="_blank">Instagram</a>
+                    <a href="https://instagram.com/deusesdouniversonr?igshid=MzNlNGNkZWQ4Mg==" target="_blank">Instagram 
+                    <FaInstagram size={35}/>
+                    </a>
                 </span>
             </div>
             <div>

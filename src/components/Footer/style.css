@@ -11,15 +11,24 @@
 .introduce{
     display: flex;
     justify-content: center;
-
+    @media(max-width: 424px){
+        font-size: 80%;
+    }
 }
 .gridone a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
 }
 .gridtwo{
     padding: 20px;
 }
 .gridtwo a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
     color: white;
 }
 
